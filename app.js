@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const playdl = require('play-dl');
 const ffmpeg = require('fluent-ffmpeg');
-const ffmpegPath = require('ffmpeg-static');
+const ffmpeg = require('fluent-ffmpeg');
 
 const app = express();
 
